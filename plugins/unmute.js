@@ -3,7 +3,7 @@ const {cmd , commands} = require('../command')
 cmd({
      pattern: "unmute",	
      alias: ["unlock"],
-     react: "🔊",
+     react: "🇿🇼",
      desc: "mute group.",
      category: "group",
      filename: __filename,
@@ -17,7 +17,7 @@ try{
     if (!isBotAdmins) return reply(mg.needbotadmins);     
   
             await conn.groupSettingUpdate(m.chat, "not_announcement")
-           const mass = await conn.sendMessage(m.chat, { text: '*Group chat unmuted* 🔊' }, { quoted: mek });
+           const mass = await conn.sendMessage(m.chat, { text: '*Group chat unmuted by Joshuamambo1* 🔊' }, { quoted: mek });
             return await conn.sendMessage(m.chat, { react: { text: '🔊', key: mass.key } });
 } catch(e) {
 console.log(e);
