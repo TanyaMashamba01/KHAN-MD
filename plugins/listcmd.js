@@ -11,7 +11,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━❮ *DOWNLOAD CMD* ❯━┈⊷
+        let dec = `╭━❮ *DOWNLOAD Joshuamambo CMD* ❯━┈⊷
 ┃▸
 ┃▸📄 COMMAND: .play
 ┃▸❕ Download Audio from yt
@@ -297,7 +297,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/89xq3r.jpg` },
+                image: { url: `https://b.top4top.io/p_3291qwfqu0.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
