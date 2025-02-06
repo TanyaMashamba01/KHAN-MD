@@ -17,7 +17,7 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let desc = `╭━━━〔 *KHANX-MD* 〕━━━┈⊷
+let desc = `╭━━━〔 *Joshuamambo1-MD* 〕━━━┈⊷
 ┃▸╭───────────
 ┃▸┃๏ *MUSIC DOWNLOADER*
 ┃▸└───────────···๏
@@ -32,7 +32,7 @@ let desc = `╭━━━〔 *KHANX-MD* 〕━━━┈⊷
 ┃▸┃๏ *Ago* - ${data.ago}
 ┃▸└────────────┈⊷
 ╰━━━━━━━━━━━━━━━⪼
-> *© Pᴏᴡᴇʀᴇᴅ Bʏ Jᴀᴡᴀᴅ TᴇᴄʜX ♡*`
+> *© Powed by Joshuamambo1 *`
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
 //download audio
@@ -65,7 +65,7 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let des = `╭━━━〔 *KHANX-MD* 〕━━━┈⊷
+let des = `╭━━━〔 *Joshuamambo1-MD* 〕━━━┈⊷
 ┃▸╭───────────
 ┃▸┃๏ *VIDEO DOWNLOADER*
 ┃▸└───────────···๏
@@ -80,7 +80,7 @@ let des = `╭━━━〔 *KHANX-MD* 〕━━━┈⊷
 ┃▸┃๏ *Ago* - ${data.ago}
 ┃▸└────────────┈⊷
 ╰━━━━━━━━━━━━━━━⪼
-> *© Pᴏᴡᴇʀᴇᴅ Bʏ Jᴀᴡᴀᴅ TᴇᴄʜX ♡*`
+> *© Powered by Joshuamambo1X ♡*`
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:des},{quoted:mek});
 
 //download video
